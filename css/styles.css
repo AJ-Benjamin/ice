@@ -1,0 +1,285 @@
+body {
+  margin: 0
+}
+
+h1 {
+  color: #2B2B2B;
+  font-size: 4rem;
+}
+
+p {
+  color: #F3F0D7;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 1.5rem 0.5rem;
+}
+
+.button1 {
+  background-color: white;
+  color: #753422;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #753422;
+  color: white;
+}
+
+.button2 {
+  color: #753422;
+  border: 2px solid #008CBA;
+  background-color: #D1E8E4;
+}
+
+.button2:hover {
+  background-color: #5C7AEA;
+  color: white;
+}
+
+.landing_page {
+  background-color: #C36839;
+  position: relative;
+  padding: 3rem 0 3rem 3rem;
+  margin: 0;
+}
+
+.choc {
+  color: #753422;
+  font-family: Montserrat;
+}
+
+.creamy {
+  color: #FFFEB7;
+  font-family: Montserrat;
+}
+
+.caption_sentence {
+  position: relative;
+  width: 45%;
+  display: inline-block;
+  padding: 0 0 4rem;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-container2 {
+  display: grid;
+  grid-row-gap: 4rem;
+}
+
+.iceCreams1 {
+  border: 3px solid #FFFEB7;
+  border-radius: 7%;
+  width: 30%;
+  height: 17rem;
+  position: relative;
+  left: 5%;
+  z-index: 1;
+}
+
+.iceCreams4 {
+  border: 3px solid #FFFEB7;
+  border-radius: 7%;
+  height: 15rem;
+  width: 30%;
+  position: relative;
+  transform: rotate(10deg);
+}
+
+.iceCreams6 {
+  border: 3px solid #FFFEB7;
+  border-radius: 7%;
+  height: 15rem;
+  width: 30%;
+  position: relative;
+  left: 10%;
+  transform: rotate(-10deg);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Birthstone Bounce', cursive;
+}
+
+.landing_images {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.navbar {
+  background-color: #C36839;
+}
+
+.navbar-brand {
+  padding-left: 1.5rem;
+}
+
+.nav-item {
+  color: #753422;
+  padding: 1.5rem;
+}
+
+.nav-link {
+  color: #753422;
+}
+
+.nav-link:hover {
+  color: #FFFEB7;
+}
+
+@media (max-width: 980px) {
+  .landing_page {
+    text-align: center;
+  }
+}
+
+/* WHY ICE SECTION */
+.feature-box{
+margin: 3rem 0;
+}
+
+#why-ice {
+  background-color: #FFFEB7;
+  color: #753422;
+  text-align: center;
+  padding: 4.5%;
+  font-family: cursive;
+}
+
+.why-ice-comment {
+  padding: 7% 15%;
+}
+
+#flavours {
+  padding: 7% 5%;
+  background-color: #FFFEB7;
+  padding: 4.5%;
+}
+
+.flavour-images {
+  width: 10rem;
+  height: 16rem;
+}
+
+small .button {
+  background-color: #C36839;
+  border: none;
+  color: white;
+  padding: 0.9rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 0.5rem 0.3rem;
+}
+
+#flavours {
+  padding: 5rem 2rem;
+}
+
+.card-title {
+  text-align: center;
+  color: #753422;
+  font-family: cursive;
+}
+
+.card-text {
+  text-align: center;
+  color: #C36839;
+  font-size: 3rem;
+}
+
+/* testionial Section and press/ partnership section*/
+#testimonials, #press {
+  background-color: #C36839;
+  text-align: center;
+  color: #FFFEB7;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  height: 50%;
+  margin: 10% 0;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-comment {
+  padding: 2px 3rem;
+  font-size: 2.2rem;
+  font-family: Montserrat;
+  line-height: 1.5;
+  color: #FFFEB7;
+}
+
+/* Press section */
+
+.press-logo{
+  width: 9rem;
+  margin: 50px 10px;
+  padding: 2rem 2rem;
+}
+
+.press-comment {
+  font-family: Montserrat;
+  padding: 5% 4%;
+  font-size: 1.5rem;
+  color: #F3F0D7;
+}
+
+/* CTA SECTION */
+#cta {
+  background-color: #FFFEB7;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-comment {
+  font-size: 3rem;
+  color: #C36839;
+  /* font-family: Montserrat; */
+}
+
+#footer {
+  background-color: #C36839;
+  text-align: center;
+  padding: 5%;
+  font-size: 1.5rem;
+}
+
+.social-icon {
+  padding: 0 5px;
+  color: #FFFEB7;
+}
